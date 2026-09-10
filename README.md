@@ -5,7 +5,7 @@ Public diagram images for UTME-Lab, served as static assets via GitHub Pages.
 ## Layout
 - 2,928 question-diagram images at the repo root, keyed by the same bare
   filename the question bank stores in each question's `image` field.
-- The app resolves `image` → `https://shedrackgodstime.github.io/utmelab-assets/<filename>`
+- The app resolves `image` → `https://ultimatekristency.github.io/utmelab-assets/<filename>`
   in `src/components/features/exam/content.rs::image_src`.
 
 ## Update flow
