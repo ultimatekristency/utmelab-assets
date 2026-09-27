@@ -1,6 +1,6 @@
 # utmelab-assets
 
-Public diagram images for UTME-Lab, served as static assets via GitHub Pages.
+Public diagram images and videos for UTME-Lab, served as static assets via GitHub Pages.
 
 ## Layout
 - 2,928 question-diagram images in `images/`, keyed by the same bare
