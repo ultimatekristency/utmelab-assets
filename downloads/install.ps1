@@ -1,6 +1,6 @@
 # UTME Lab one-line installer (Windows, per-user, no admin).
 #
-#   iwr -useb https://assets.utmelab.com/downloads/install.ps1 | iex
+#   iwr -useb https://utmelab.com/downloads/install.ps1 | iex
 #
 # Resolves the CURRENT release from latest.json (no version is hardcoded
 # here, so this script never goes stale), verifies the download against

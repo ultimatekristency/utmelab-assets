@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # UTME Lab one-line installer (Linux).
 #
-#   curl -fsSL https://assets.utmelab.com/downloads/install.sh | bash
+#   curl -fsSL https://utmelab.com/downloads/install.sh | bash
 #
 # Resolves the CURRENT release from latest.json (no version is hardcoded
 # here, so this script never goes stale), verifies every download against
