@@ -3,9 +3,9 @@
   "update": {
     "version": "0.9.1",
     "android_apk_url": "https://assets.utmelab.com/downloads/utmelab-release.apk",
-    "linux_appimage_url": null,
-    "linux_deb_url": null,
-    "linux_rpm_url": null,
+    "linux_appimage_url": "https://assets.utmelab.com/downloads/utmelab-0.9.1-x86_64.AppImage",
+    "linux_deb_url": "https://assets.utmelab.com/downloads/utmelab_0.9.1_amd64.deb",
+    "linux_rpm_url": "https://assets.utmelab.com/downloads/utmelab-0.9.1-1.x86_64.rpm",
     "windows_setup_url": "https://assets.utmelab.com/downloads/UTME-Lab-0.9.1-setup.exe",
     "windows_portable_url": "https://assets.utmelab.com/downloads/UTME-Lab-0.9.1-portable.zip",
     "download_page_url": "https://utmelab.com/download"
