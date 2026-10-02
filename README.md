@@ -1,8 +1,12 @@
 # utmelab-assets
 
-Public static origin for UTME-Lab, served at `https://assets.utmelab.com`
-(the deploy platform rebuilds from `main` on every push — no GitHub Pages
-involved; anything below claiming otherwise is stale, fix it).
+Public static origin for UTME Lab, served by GitHub Pages from the
+`gh-pages` branch at `https://ultimatekristency.github.io/utmelab-assets/`.
+`assets.utmelab.com` is a CNAME to that site.
+
+The serving branch is `gh-pages` - a push to `main` does NOT go live. The
+UTME-Lab `publish-downloads` job pushes the shelf to `gh-pages` on every
+version tag, then verifies every URL answers 200 before the job passes.
 
 ## Layout
 
@@ -37,8 +41,7 @@ build keeps working). No server involvement, no rush.
 
 ## Update flow
 
-Add/overwrite files then push to `main`; the deploy platform rebuilds
-automatically:
+Add/overwrite files, then push to `gh-pages` to publish:
 
 ```sh
 git add .
